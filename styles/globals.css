@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  color: black;
+  font-family: Roboto;
+  background-color: #F8F9F8;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.title {
+  font-family: Source Serif Pro;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+[type='checkbox'] {
+  color: #71DE36;
+}
+
+[type='checkbox']:focus {
+  outline-color: #71DE36;
+}
